@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download App & Earn Rewards</title>
+<style>
+  :root{
+    --bg:#f4f5f7;
+    --card:#ffffff;
+    --text-dark:#1f2430;
+    --text-muted:#6b7280;
+    --green1:#22b24a;
+    --green2:#0e8f3a;
+    --pill-bg:linear-gradient(90deg,#fde9c8,#c9f4dd);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background:var(--bg);
+    display:flex;
+    justify-content:center;
+    padding:40px 16px;
+  }
+  .page{
+    width:100%;
+    max-width:420px;
+    text-align:center;
+  }
+  .icon-wrap{
+    width:130px;
+    height:130px;
+    margin:0 auto 24px;
+    border-radius:32px;
+    background:linear-gradient(160deg,#7c6ef2,#6a5cf0);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    box-shadow:0 20px 40px -12px rgba(124,110,242,0.45);
+  }
+  .icon-wrap .phone{ font-size:56px; }
+  .icon-wrap .money{
+    position:absolute;
+    bottom:-14px;
+    right:-10px;
+    font-size:34px;
+    filter:drop-shadow(0 4px 6px rgba(0,0,0,0.15));
+  }
+  .badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:999px;
+    background:var(--pill-bg);
+    color:#5b4b1f;
+    font-weight:600;
+    font-size:14px;
+    margin-bottom:20px;
+  }
+  h1{
+    font-size:32px;
+    font-weight:800;
+    color:var(--text-dark);
+    line-height:1.25;
+    margin:0 0 16px;
+  }
+  p.subtitle{
+    color:var(--text-muted);
+    font-size:16px;
+    line-height:1.6;
+    margin:0 0 28px;
+  }
+  .features{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    margin-bottom:28px;
+  }
+  .feature{
+    background:var(--card);
+    border-radius:14px;
+    padding:16px 12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:14px;
+    color:var(--text-dark);
+    font-weight:500;
+    text-align:left;
+    box-shadow:0 1px 2px rgba(0,0,0,0.04);
+  }
+  .feature .emoji{ font-size:20px; flex-shrink:0; }
+  .downloads-pill{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:#eceef1;
+    color:var(--text-muted);
+    padding:8px 16px;
+    border-radius:999px;
+    font-size:14px;
+    margin-bottom:20px;
+  }
+  .cta{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    padding:20px;
+    border:none;
+    border-radius:999px;
+    background:linear-gradient(90deg,var(--green1),var(--green2));
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:0.5px;
+    text-decoration:none;
+    box-shadow:0 16px 30px -10px rgba(14,143,58,0.5);
+    transition:transform .15s ease, box-shadow .15s ease;
+    cursor:pointer;
+  }
+  .cta:hover{
+    transform:translateY(-2px);
+    box-shadow:0 20px 36px -10px rgba(14,143,58,0.6);
+  }
+  .trust-row{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+    margin:20px 0 12px;
+    font-size:13px;
+    color:#4b5563;
+  }
+  .trust-row span{ display:flex; align-items:center; gap:6px; }
+  .disclaimer{
+    font-size:12px;
+    color:#9ca3af;
+    margin-top:8px;
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="icon-wrap">
+      <span class="phone">📱</span>
+      <span class="money">💰</span>
+    </div>
+
+    <div class="badge">⭐ LIMITED TIME OFFER ⭐</div>
+
+    <h1>Download App &amp; Earn Rewards</h1>
+    <p class="subtitle">Complete simple steps and start earning instantly. Fast payouts, easy tasks, 100% free!</p>
+
+    <div class="features">
+      <div class="feature"><span class="emoji">🚀</span> Easy Registration</div>
+      <div class="feature"><span class="emoji">⚡</span> Fast Rewards</div>
+      <div class="feature"><span class="emoji">🎁</span> 100% Free to Join</div>
+      <div class="feature"><span class="emoji">📱</span> Works on Android</div>
+    </div>
+
+    <div class="downloads-pill">🎉 24,589+ downloads this week</div>
+
+    <!-- 👇 এখানে আপনার App-এর লিংক বসান 👇 -->
+    <a class="cta" href="https://play.google.com/store/apps/details?id=YOUR_APP_ID" target="_blank" rel="noopener">
+      📲 DOWNLOAD NOW
+    </a>
+
+    <div class="trust-row">
+      <span>✅ Secure Download</span>
+      <span>⚡ Instant Access</span>
+      <span>🔒 No Virus</span>
+    </div>
+    <div class="disclaimer">Disclaimer: This is a promotional page. Results may vary.</div>
+  </div>
+</body>
+</html>
